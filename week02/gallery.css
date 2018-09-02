@@ -1,0 +1,108 @@
+
+
+body{
+	font:16px/2px arial,sans-serif;
+	background-color: #eaeaea;
+	color:#333;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header{
+	padding:20px;
+	padding-bottom: 10px;
+}
+
+.header .judul{
+	font-size: 60px;
+	font-weight: Bold;
+	text-align: center;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 70px;
+}
+
+.header a{
+
+	text-decoration: none;
+	color: salmon;
+	padding:2px;
+
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color:white;
+}
+
+.banner{
+	height: 250px;
+	background-image: url(img/banner.jpg);
+	background-size: cover;
+	background-position: 0 -180px;
+	border-top: 5px solid lightskyblue;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.foto h2{
+	font-size: 40px;
+	margin:30px;
+	text-align: center;
+}
+
+.foto{
+	width: auto;
+	background-color: lightskyblue;
+	padding:10px;
+	margin:auto;
+
+}
+
+.foto li{
+	width: 300px;
+	height: 200px;
+	float:left;
+	margin-right: 20px;
+}
+
+.clear{
+	clear:both;
+}
+
+.foto li span{
+	font-size: 20px;
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	padding:10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.ttg {
+	padding:10px;
+	
+}
+.ttg h5{
+	text-align: center;
+	font-weight: bold;
+}
+
+.footer{
+	padding:5px;
+	background-color: #333;
+
+}
+.footer .copy{
+	color: #eaeaea;
+	text-alig:center;
+	font-size: 12px;
+}
